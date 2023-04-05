@@ -1,0 +1,45 @@
+[
+  {
+    "Name": "Query",
+    "Operation": "query",
+    "SelectionSet": [
+      {
+        "Alias": "user",
+        "Arguments": [
+          {
+            "Name": "id",
+            "Value": {
+              "Kind": 0,
+              "Raw": "userId"
+            }
+          }
+        ],
+        "Name": "user",
+        "SelectionSet": [
+          {
+            "Alias": "id",
+            "Name": "id"
+          },
+          {
+            "Alias": "name",
+            "Name": "name"
+          },
+          {
+            "Alias": "profilePicture",
+            "Name": "profilePicture"
+          }
+        ]
+      }
+    ],
+    "VariableDefinitions": [
+      {
+        "Type": {
+          "NamedType": "ID",
+          "NonNull": true
+        },
+        "Used": false,
+        "Variable": "userId"
+      }
+    ]
+  }
+]

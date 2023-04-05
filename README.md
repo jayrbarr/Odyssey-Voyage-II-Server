@@ -51,3 +51,7 @@ Finally, let's run some local services.
 ## Getting Help
 
 For any issues or problems concerning the course content, please [refer to the Odyssey topic in our community forums](https://community.apollographql.com/tags/c/help/6/odyssey).
+
+
+Router customization: From router directory, run:
+`APOLLO_KEY=service:SmartX-Supergraph:N7yOG-NiN7gAOxisUVBj3g APOLLO_GRAPH_REF=SmartX-Supergraph@current ./router --config config.yaml --supergraph supergraph-schema.graphql --dev`
