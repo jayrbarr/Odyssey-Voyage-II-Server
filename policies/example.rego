@@ -6,7 +6,7 @@ import future.keywords.every
 default allow := false
 
 query_ast := graphql.parse(input.body.query, input.sdl)
-queryPolicy := ["user"]
+queryPolicy := ["me", "featuredListings"]
 
 nodes[node] {
     some node

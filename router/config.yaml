@@ -14,7 +14,7 @@ cors:
 authentication:
   jwt:
     jwks:
-      - url: https://t-mobile.oktapreview.com/oauth2/ausfj21w4dOqib1WD0h7/v1/keys
+      - url: TODO: << add jwks url here >>
 coprocessor:
   url: http://127.0.0.1:4041
   router:
@@ -23,3 +23,5 @@ coprocessor:
       body: true
       context: true
       sdl: true
+rhai:
+  main: "require_jwt.rhai"
